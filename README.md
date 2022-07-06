@@ -21,9 +21,17 @@ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt-get update && sudo apt-get install packer
 ```
+The directory ~/.local/share/nvim/site/pack/packer should be created. If not, packer will need to be moved to 
+this location and it likely was not installed correctly. In this case, consult online resources outside of the 
+commands I have given.
 #### Create config file structure:
 If not created during installation of nvim, create a ~/.config/nvim directory to store my cloned configuration files. 
 
 ## Installing my Configuration !!
 #### Cloning
-Run 
+
+
+
+
+
+
